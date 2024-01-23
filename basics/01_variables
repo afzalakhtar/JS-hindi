@@ -1,0 +1,17 @@
+const acountId = 122335
+let acountEmail = 'afzalakhtar@gmail.com'
+var acountPass = '123456'
+acountCity = 'Jharkhand'
+let acountState;
+
+/*acountId = 123*/ //not allowed
+
+/*
+Prefer not to use var
+becouse of issue in block and function scope
+*/
+
+acountEmail = 'afzaluidev@gmail.com'
+acountPass = '987456'
+acountCity = 'Delhi'
+console.table([acountEmail, acountPass, acountCity, acountState])
